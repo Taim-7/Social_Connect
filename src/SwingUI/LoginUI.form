@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SwingUI.LoginUI">
+  <grid id="27dc6" binding="loginPanel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="15" vgap="15">
+    <margin top="40" left="40" bottom="40" right="40"/>
+    <constraints>
+      <xy x="20" y="20" width="550" height="350"/>
+    </constraints>
+    <properties>
+      <background color="-526345"/>
+      <font name="Segoe UI" size="14"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="title" class="javax.swing.JLabel" binding="titleLbl">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="24" style="1"/>
+          <foreground color="-13421773"/>
+          <text value="Login to Social Connect"/>
+        </properties>
+      </component>
+      <component id="lbl1" class="javax.swing.JLabel" binding="emailLbl">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="14"/>
+          <foreground color="-10066330"/>
+          <text value="Email:"/>
+        </properties>
+      </component>
+      <component id="txt1" class="javax.swing.JTextField" binding="emailTxt">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Segoe UI" size="14"/>
+          <foreground color="-13421773"/>
+        </properties>
+      </component>
+      <component id="lbl2" class="javax.swing.JLabel" binding="passwordLbl">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="14"/>
+          <foreground color="-10066330"/>
+          <text value="Password:"/>
+        </properties>
+      </component>
+      <component id="txt2" class="javax.swing.JPasswordField" binding="passwordTxt">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Segoe UI" size="14"/>
+          <foreground color="-13421773"/>
+        </properties>
+      </component>
+      <component id="chkPw1" class="javax.swing.JCheckBox" binding="showPasswordChk">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-526345"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <font name="Segoe UI" size="12"/>
+          <foreground color="-10066330"/>
+          <rolloverEnabled value="false"/>
+          <text value="Show Password"/>
+        </properties>
+      </component>
+      <component id="btn2" class="javax.swing.JButton" binding="registerBtn">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2631721"/>
+          <focusPainted value="false"/>
+          <font name="Segoe UI" size="14"/>
+          <foreground color="-13421773"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <component id="btn1" class="javax.swing.JButton" binding="loginBtn">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16745804"/>
+          <focusPainted value="false"/>
+          <font name="Segoe UI" size="14"/>
+          <foreground color="-1"/>
+          <text value="Login"/>
+        </properties>
+      </component>
+      <component id="btn3" class="javax.swing.JButton" binding="helpBtn">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15681151"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <font name="Segoe UI" size="14"/>
+          <foreground color="-13421773"/>
+          <text value="Help"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

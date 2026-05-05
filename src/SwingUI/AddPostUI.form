@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SwingUI.AddPostUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="15" vgap="15">
+    <margin top="20" left="30" bottom="20" right="30"/>
+    <constraints>
+      <xy x="20" y="20" width="550" height="677"/>
+    </constraints>
+    <properties>
+      <background color="-526345"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="lbl1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="14"/>
+          <foreground color="-13421773"/>
+          <text value="Post Security:"/>
+        </properties>
+      </component>
+      <component id="cmb1" class="javax.swing.JComboBox" binding="securityType">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Segoe UI" size="14"/>
+          <foreground color="-13421773"/>
+        </properties>
+      </component>
+      <component id="lbl2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="14"/>
+          <foreground color="-13421773"/>
+          <text value="Post Type:"/>
+        </properties>
+      </component>
+      <component id="cmb2" class="javax.swing.JComboBox" binding="postType">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Segoe UI" size="14"/>
+          <foreground color="-13421773"/>
+        </properties>
+      </component>
+      <grid id="pnlText" binding="textPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="10">
+        <margin top="5" left="0" bottom="5" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-526345"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="lbl3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="14"/>
+              <foreground color="-13421773"/>
+              <text value="Enter Text (Max 300 chars):"/>
+            </properties>
+          </component>
+          <scrollpane id="scr1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="txt1" class="javax.swing.JTextArea" binding="postTextArea">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Segoe UI" size="14"/>
+                  <foreground color="-13421773"/>
+                  <lineWrap value="true"/>
+                  <wrapStyleWord value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="pnlImg" binding="imagePanel" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-526345"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="lbl4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="14"/>
+              <foreground color="-13421773"/>
+              <text value="Image Name:"/>
+            </properties>
+          </component>
+          <component id="txt2" class="javax.swing.JTextField" binding="imageNameTxt">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="35"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Segoe UI" size="14"/>
+              <foreground color="-13421773"/>
+            </properties>
+          </component>
+          <component id="lbl5" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="14"/>
+              <foreground color="-13421773"/>
+              <text value="Description:"/>
+            </properties>
+          </component>
+          <component id="txt3" class="javax.swing.JTextField" binding="imageDescTxt">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="35"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Segoe UI" size="14"/>
+              <foreground color="-13421773"/>
+            </properties>
+          </component>
+          <component id="7f3a1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="14"/>
+              <foreground color="-13421773"/>
+              <text value="Image URL:"/>
+            </properties>
+          </component>
+          <component id="8c2b4" class="javax.swing.JTextField" binding="imageUrlTxt">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="35"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Segoe UI" size="14"/>
+              <foreground color="-13421773"/>
+            </properties>
+          </component>
+          <component id="btnUpload" class="javax.swing.JButton" binding="uploadBtn">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="35"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-2631721"/>
+              <font name="Segoe UI" size="14"/>
+              <foreground color="-13421773"/>
+              <text value="Choose Image..."/>
+            </properties>
+          </component>
+          <component id="lblPath" class="javax.swing.JLabel" binding="imagePathLbl">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="14"/>
+              <foreground color="-10066330"/>
+              <text value="No file selected"/>
+            </properties>
+          </component>
+          <component id="9e1d5" class="javax.swing.JLabel" binding="previewLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="200"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="14"/>
+              <foreground color="-13421773"/>
+              <horizontalAlignment value="0"/>
+              <text value="No image to preview"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="btnSub" class="javax.swing.JButton" binding="submitBtn">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16745804"/>
+          <font name="Segoe UI" size="14"/>
+          <foreground color="-1"/>
+          <text value="Submit Post"/>
+        </properties>
+      </component>
+      <component id="btnCan" class="javax.swing.JButton" binding="cancelBtn">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2631721"/>
+          <font name="Segoe UI" size="14"/>
+          <foreground color="-13421773"/>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
